@@ -1,0 +1,57 @@
+export const endpoints = {
+  getPermitCodes: `/api/library/getPermitCodes`,
+  getPermitTypes: `/api/library/getPermitTypes`,
+  getCountries: `/api/library/getCountries`,
+  getReceivingRegions: `/api/library/getReceivingRegions`,
+  getStatuses: `/api/library/getBlankStatuses`,
+  getStations: `/api/library/getStations`,
+  getDamageTypes: `/api/library/getBlankDamageTypes`,
+  getPermitKinds: `/api/permitCategory/getPagedList`,
+  getExchangeTypes: `/api/library/GetBlankExchangeTypes`,
+
+  getCodes: `/api/permit/getPagedList`,
+  exportPermitExcel: "/api/permit/exportExcel",
+  getPermitById: `/api/permit/get`,
+
+  getBlankList: `/api/blank/getPagedList`,
+  getBlankSubList: `/api/blank/getSubList`,
+  getActiveBlankCount: `/api/blank/getActiveBlankCount`,
+
+  getPermitBlankList: `/api/blankQuota/getPagedList`,
+  exportPermitBlankExcel: `/api/blankQuota/export`,
+  createPermitBlank: `/api/blankQuota/create`,
+  updatePermitBlank: `/api/blankQuota/update`,
+  getPermitBlankById: `/api/blankQuota/get`,
+  changeStatusPermitBlank: `/api/blankQuota/send`,
+
+  getInvalidBlankList: `/api/blankInvalid/getPagedList`,
+  exportInvalidBlankExcel: `/api/blankInvalid/export`,
+  createInvalidBlank: `/api/blankInvalid/create`,
+  updateInvalidBlank: `/api/blankInvalid/update`,
+  getInvalidBlankById: `/api/blankInvalid/get`,
+  restoreInvalidBlank: `/api/blankInvalid/restore`,
+  removeInvalidBlank: `/api/blankInvalid/delete`,
+
+  getWarehouseEntranceList: `/api/blankinbound/getPagedList`,
+  getWarehouseEntranceSubList: `/api/blankinbound/getSubList`,
+  confirmWarehouseEntrance: `/api/blankinbound/confirm`,
+  returnWarehouseEntrance: `/api/blankinbound/return`,
+  exportWarehouseEntranceExcel: `/api/warehouseEntrance/exportExcel`,
+
+  getWarehouseExitList: `/api/blankOutbound/getPagedList`,
+  exportWarehouseExitExcel: `/api/blankOutbound/export`,
+  getWarehouseExitById: `/api/blankOutbound/get`,
+  createWarehouseExit: `/api/blankOutbound/create`,
+  updateWarehouseExit: `/api/blankOutbound/update`,
+
+  getPointInboundList: `/api/pointInbound/getPagedList`,
+  exportPointInboundExcel: `/api/pointInbound/exportExcel`,
+  confirmPointInbound: `/api/pointInbound/confirm`,
+  returnPointInbound: `/api/pointInbound/return`,
+
+  getPointTransferList: `/api/pointTransfer/getPagedList`,
+  exportPointTransferExcel: `/api/pointTransfer/exportExcel`,
+  getPointTransferById: `/api/pointTransfer/getById`,
+  createPointTransfer: `/api/pointTransfer/create`,
+  updatePointTransfer: `/api/pointTransfer/update`,
+};

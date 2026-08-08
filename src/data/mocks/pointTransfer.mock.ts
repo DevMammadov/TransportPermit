@@ -1,0 +1,52 @@
+import { PointTransferListDTO } from "@/data/dto/pointTransferList.dto";
+
+export const pointTransferMockData: Partial<PointTransferListDTO> = {
+  items: [
+    {
+      id: 1,
+      code: "64554",
+      startNumber: "34234",
+      endNumber: "34345",
+      pointName: "Rusiya",
+      totalCount: 34234,
+      senderCountry: "Tranzit",
+      statusId: 4,
+      statusLabel: "Təsdiqlənib",
+    },
+    {
+      id: 2,
+      code: "64554",
+      startNumber: "5345",
+      endNumber: "346346",
+      pointName: "Rusiya",
+      totalCount: 5345,
+      senderCountry: "Tranzit",
+      statusId: 3,
+      statusLabel: "Göndərilib",
+    },
+    {
+      id: 3,
+      code: "64554",
+      startNumber: "5345",
+      endNumber: "346346",
+      pointName: "Rusiya",
+      totalCount: 5345,
+      senderCountry: "Tranzit",
+      statusId: 2,
+      statusLabel: "Qaralama",
+    },
+    {
+      id: 4,
+      code: "45636",
+      startNumber: "3455",
+      endNumber: "74534",
+      pointName: "Rusiya",
+      totalCount: 3455,
+      senderCountry: "Tranzit",
+      statusId: 5,
+      statusLabel: "Geri qayıdıb",
+      rejectReason: "Səbəb: Nömrə ardıcıllığı səhvdir.",
+    },
+  ],
+  totalCount: 4,
+};
